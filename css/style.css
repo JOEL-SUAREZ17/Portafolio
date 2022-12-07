@@ -12,6 +12,7 @@ body{
     font-size: 20px;
     font-family: 'Ubuntu', sans-serif;
     background-color: black;
+    /* background: url(../img/fondo.jpg) no-repeat; */
   }
 
   header {
@@ -20,7 +21,11 @@ body{
     padding: 5px 5%;
     background-color: #000000;
     color: white;
+
     position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
     justify-content: space-between;
     align-items: center;
     margin-top: 0%;
@@ -165,3 +170,95 @@ body{
     color: white;
   }
 
+.presentation{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    width: 30%;
+    margin-top: 4rem;
+    margin-left: 35%;
+    height: 100%;
+    margin-bottom: 3rem;
+}
+h2{
+  display: flex;
+  margin-bottom: 20px;
+}
+section p{
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: left;
+  margin-left: 10px;
+
+}
+.foto{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  size: 100px;
+  width: 120px;
+  border: 1px solid white;
+  box-shadow: 0px 0px 5px 3px #ffffff;
+  margin-left: 2px;
+  margin-bottom: 4px;
+}
+.presentation button{
+  margin: 3px;
+}
+.banner{
+  display: flex;
+  background-color:black;
+  text-align: center;
+  justify-content: center;
+ height: 400px;
+ width: 100%;
+  margin-top: 17vh;
+}
+.ban1{
+display:flex;
+margin: 10px;
+}
+.ban2{
+display: flex;
+margin: 10px;
+}
+.ban3{
+  display: flex;
+  margin: 10px;
+}
+.container-galery{
+  background-color: black;
+  padding-top: 4%;
+  text-align: center;
+  
+}
+.container-galery h2 {
+  text-align: center;
+  color: white;
+  justify-content: center;
+  border-bottom: solid 2px #ffffff;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+.galery{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* gap: 20px; */
+  row-gap: 40px;
+  column-gap: 10px;
+  
+}
+.galery img {
+  width: 725px;
+  height: 530px;
+}
+.galery h3{
+  text-align: center;
+  text-decoration:underline white;
+  margin-right: 10px;
+  justify-content: center;
+}
+main{
+  width: 100%;
+  background: url(../img/fondo.jpg);
+}
